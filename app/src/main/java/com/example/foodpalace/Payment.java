@@ -48,7 +48,7 @@ public class Payment extends AppCompatActivity implements PaymentResultListener 
         final Activity activity=this;
 
         Checkout checkout=new Checkout();
-        checkout.setKeyID("rzp_test_1g5Y7DlxW8Kjee");
+        checkout.setKeyID("xxxxAPI_KEYxxxx");
         checkout.setImage(R.drawable.ic_baseline_shopping_cart_24);
         double finalamount = parseFloat(amount)*100;
 
